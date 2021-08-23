@@ -2,6 +2,8 @@
 
 ## Installation instructions
 
+Note: the program is written in Python 3, so it will not work with Python 2
+
 To clone the git repository, please run:
 
 ```
@@ -14,7 +16,7 @@ There is only 1 dependency: Pandas (https://pandas.pydata.org/docs/). To install
 pip install pandas
 ```
 
-The program can then be run by the instruction:
+The program can then be run by the instruction (from the directory of the cloned git repository):
 
 ```
 python Order_Summariser_3_Jun.py
@@ -23,7 +25,7 @@ python Order_Summariser_3_Jun.py
 
 ## Requirements
 
-'to create a simple output detailing how many units of each coloured component that were ordered on 3rd June 2021'
+'to create a simple output detailing how many units of each coloured component that were ordered on 3rd June 2021', the below 3 points summarise how this is met:
 
 - new dataset created detailing each colour and its corresponding sum of all orders
 - results of this dataset printed into the terminal
